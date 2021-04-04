@@ -1,0 +1,41 @@
+.container {
+  margin-left: 30% ;
+  margin-right: 30% ;
+}
+
+ul {
+    height: auto;
+    padding: 5px;
+    font-size: 20px;
+    font-weight: bold;
+    overflow: hidden;
+    list-style-type: none;
+    margin: 10px 10px;
+  }
+li, .inline {
+    display: inline;
+}
+a:link.up {
+    padding-left: 5px;
+    border: none;
+    background:none;
+}
+a.up:hover, a.up:active {
+    color: rgb(255, 72, 47);
+}
+  a:link, a:visited {
+    background-color: white;
+    color: black;
+    border: 2px solid rgb(117, 117, 117);
+    border-radius: 10px;
+    padding: 10px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  }
+  
+  a:hover, a:active {
+    background-color: rgb(117, 117, 117);
+    color: white;
+  }
+
